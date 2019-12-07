@@ -84,8 +84,8 @@ holiday_hash.map do |season, holiday|
   # include the string "BBQ"
   #holiday_hash.each do |symbols, supply|
     
-end
-end.flattern
+   end
+  end.flattern
 end
 
 
