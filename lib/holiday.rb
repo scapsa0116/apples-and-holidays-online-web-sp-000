@@ -72,10 +72,6 @@ holiday_hash.map do |season, holiday|
   holiday.map do |holiday_name, supplys|
    supplys.include?("BBQ") ? holiday_name : nil
   
-  # return an array of holiday names (as symbols) where supply lists
-  # include the string "BBQ"
-  #holiday_hash.each do |symbols, supply|
-    
    end
   end.flatten.compact
 end
