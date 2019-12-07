@@ -85,7 +85,7 @@ holiday_hash.map do |season, holiday|
   #holiday_hash.each do |symbols, supply|
     
    end
-  end.flattern
+  end.flattern.compact
 end
 
 
